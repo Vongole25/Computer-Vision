@@ -14,26 +14,27 @@ Code reproductions of classic / modern architectures, plus award-winning competi
 
 ## 🏆 Competition Projects
 
-### Defective Coffee Bean Classification — 🥈 2nd Place
-*T-SUM Data Analysis Competition, Korea University Sejong (2023) · Team of 4*
+### Deepfake Detection — 🥈 2nd Place
+*T-SUM Data Analysis Competition, Korea University Sejong (Spring 2025) · Team of 4*
+
+- **Task:** Binary classification of authentic vs deepfake videos.
+- **Approach:**
+  - Compared a spatio-temporal **Video Swin Transformer** against an **Xception + LSTM** CNN+recurrent baseline.
+  - Face cropping, frame sampling strategy, class-imbalanced training; per-class precision/recall reported.
+- **Result:** **2nd Place**, intramural T-SUM competition.
+- 📁 `deepfake-detection/` (to be added)
+
+### Defective Coffee Bean Classification — 🥉 3rd Place
+*T-SUM Data Analysis Competition, Korea University Sejong (Fall 2024) · Team of 4*
 
 - **Task:** Multi-class classification of defective vs normal coffee beans from images.
 - **Approach:**
   - Backbone: **EfficientNet-B0** with ImageNet-pretrained weights.
   - Data augmentation via Albumentations (rotation, color jitter, cutout).
   - Class-balanced sampling for imbalanced defect categories.
-- **Result:** 2nd place out of intramural participants.
+- **Result:** **3rd Place**, intramural T-SUM competition.
 - 📁 `coffee-bean-classification/` (to be added)
 
-### Deepfake Detection — 🥉 3rd Place
-*T-SUM Data Analysis Competition, Korea University Sejong (2023) · Team of 4*
-
-- **Task:** Binary classification of authentic vs deepfake video frames.
-- **Approach:**
-  - Frame extraction → CNN backbone feature extraction.
-  - Investigated simple temporal aggregation (mean/max pooling over frames).
-- **Result:** 3rd place.
-- 📁 `deepfake-detection/` (to be added)
 
 ---
 
